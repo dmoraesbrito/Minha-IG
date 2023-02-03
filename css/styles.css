@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-image: url(/img/fundo.jpg);
+    background-size: cover;
+    backdrop-filter: blur(10px) brightness(60%);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+.cabecalho .logo {
+    width: 100px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.cabecalho nav li a:hover {
+    background-color: #f2028c;
+    
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 191px);
+    padding: 0 30px 30px;
+}
+
+.minhaig {
+    width: 500px;
+}
+
+.logo-texto {
+    width: 80%;
+}
+
+.container .descricao {
+    color: #ffffff;
+    width: 85%;
+    font-size: 1.5em;
+    padding: 1em 0;
+}
+
+.container .botao {
+    background-color: #f2028c;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+
+.container .botao a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container .botao:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    color: #ffffff;
+    justify-content: center;    
+}
