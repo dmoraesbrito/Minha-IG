@@ -28,7 +28,7 @@ body {
 .cabecalho nav li a {
     font-weight: bold;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 1.3em;
     padding: 10px 20px;
     border-radius: 50px;
     transition: 0.2s;
@@ -52,13 +52,13 @@ body {
 }
 
 .logo-texto {
-    width: 80%;
+    width: 50%;
 }
 
 .container .descricao {
     color: #ffffff;
     width: 85%;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 1em 0;
 }
 
@@ -86,5 +86,7 @@ body {
 footer {
     display: flex;
     color: #ffffff;
-    justify-content: center;    
+    justify-content: center; 
+    font-size: 12px;
 }
+
